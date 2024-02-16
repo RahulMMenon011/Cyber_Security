@@ -34,7 +34,7 @@ Types of Firewalls
 
 Command
 
->nmap -sS <ip>
+`nmap -sS <ip>`
 
 ![Screenshot 2024-02-16 233059](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/7511b8a3-0a8d-46d5-ba48-091406a47977)
 
@@ -42,7 +42,7 @@ Command
 
 Command
 
->nmap -sn <ip>/<CIDR>
+`nmap -sn <ip>/<CIDR>`
 
 `Attacker`
 
@@ -61,4 +61,33 @@ Command
 
 #### f) Use NMAP commands to export the output in XML format.
 
-we use the -oX flag
+we use the `-oX` flag
+
+Command used here
+
+`nmap -sV <ip> -oX result.xml`
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/d5dd8689-80c4-49bc-b7b1-9eb9ed24679c)
+
+#### g) Use the NMAP command to get OS information about a host
+
+Command 
+
+`nmap -O <ip>`
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/67f64932-505a-4644-a8a1-968a74bfb6b4)
+
+#### h) Explain ping sweeping and Perform ping sweeping using Nmap
+`Ping Sweep` is a network reconnaissance technique used to determine which IP addresses are alive and responsive on a network.
+It involves sending a series of ICMP echo request messages, also known as pings, to a range of IP
+addresses, usually in a sequential order, to identify which ones are available and can be reached.
+Ping sweeping is often used by network administrators to identify active hosts on a network and to map
+the network
+
+Nmap command to perform ping sweep - `nmap -sn <network address>/<CIDR`
+
+sn - allows to perform a ping scan on the target
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/02c76938-f70e-4e7c-9b7a-412aebc0858f)
+
+
