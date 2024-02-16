@@ -90,4 +90,39 @@ sn - allows to perform a ping scan on the target
 
 ![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/02c76938-f70e-4e7c-9b7a-412aebc0858f)
 
+#### 1.What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprintdetection using NMAP.
+
+a) A web application firewall (WAF) is a firewall that monitors, filters and blocks data packets as theytravel to and from a website or web application.
+
+b) A WAF can be either network-based, host-based or cloud-based and is often deployed through areverse proxy and placed in front of one or more websites or applications.
+
+c) Running as a network appliance, server plugin or cloud service, the WAF inspects each packet anduses a rule base to analyze Layer 7 web application logic and filter out potentially harmful traffic that canfacilitate web exploits.
+
+Command  `nmap --script http-waf-detect`
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/dae1f7f3-2935-4a52-a96c-f4308e0310cc)
+
+#### 2.What is EXIF data? Try to find EXIF data of images on a website using NMAP NSE.
+
+EXIF DATA It is a metadata that is embedded within image files, such as JPEGs, TIFFs, and RAW files. Thisdata includes information about the camera settings used to take the picture, as well as informationabout the date, time, and location of the image Exif data can also include information about the camera'smake and model, the lens used, and the exposure settings, such as shutter speed, aperture, and ISO.
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/f31297a0-d80f-44ed-83ff-1318705253d5)
+
+#### 3.Use NMAP NSE to find all subdomains of the website.
+
+All the nse scripts are loacated in `/usr/share/nmap/scripts`
+
+command used `nmap --script dns-brute.nse www.google.com`
+
+The dns-brute script built into Nmap is designed to enumerate subdomains and their correspondingserver IP addresses.
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/a76d74ea-f500-4117-a539-1b7677d54463)
+
+#### 4.Perform a vulnerability scan on the target host using NMAP NSE.
+
+command used `nmap -sV --script=vuln <target ip>`
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/58f480db-ce0b-4c27-9284-c991719c45eb)
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/c6b4ada8-5d7b-456d-bbc5-b629c1f5bf3d)
 
