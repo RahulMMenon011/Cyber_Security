@@ -74,3 +74,39 @@ The victim becomes slow as soon as we enable the plugin since the target IP star
 
 ![WhatsApp Image 2024-02-17 at 21 50 47_878e4305](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/2f6d2d2d-4a8b-4a8a-b286-0a7b512d2791)
 
+## DNS Spoofing
+In a DNS spoofing attack, the attacker exploits vulnerabilities in the DNS resolution process to provide false information to a DNS resolver, which is responsible for translating domain names into IP addresses. The goal of DNS spoofing is to redirect users to a fraudulent website or to intercept sensitive information.
+
+### PERFORMING THE ATTACK
+
+>So to perform the attack we will be using the DNS spoof plugin that is available in Ettercap that we previously used.
+We also have to modify /etc/ettercap/etter.conf file and
+/etc/ettercap/etter.dns to change to perform the dns spoofing attack
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/a4711a59-9fc6-4d8a-8732-2e7efeab62b5)
+
+![Screenshot 2024-01-29 220558](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/22bdb775-ad8d-43d4-a6f3-2796e4a24c8c)
+
+![Screenshot 2024-01-29 220758](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/d60408fa-d2ae-4d36-8a27-30f1bf15b3c6)
+
+>we will turn on the redirection and which website we spoof the DNS.
+So first start the dns spoofing using the plugin in the Ettercap plugins.
+
+![Screenshot 2024-01-29 221111](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/073cf52b-95dd-487a-b74a-9e64d0b962e2)
+
+>So we can see that we have dns_spoof plugin. After starting the dns spoofing we
+will use
+Arp poisoning again to make the attack successful.
+
+![Screenshot 2024-01-29 221023](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/a24513cc-fc86-45a2-9fce-51d0714fd770)
+
+>We will add all the gate way as the first target and others host as the second target.
+Now if we try to navigate to the specified website it should goto Apache server running
+on the attacker machine.
+
+![Screenshot 2024-01-29 221355](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/b152ceae-2fa2-428d-a8aa-14d7282f634a)
+
+So the attack is successful.
+
+![Screenshot 2024-01-29 222729](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/955a58e2-bdaa-4baa-87fc-7d9596110972)
+
