@@ -74,7 +74,7 @@ The victim becomes slow as soon as we enable the plugin since the target IP star
 
 ![WhatsApp Image 2024-02-17 at 21 50 47_878e4305](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/2f6d2d2d-4a8b-4a8a-b286-0a7b512d2791)
 
-## 3.DNS Spoofing
+### 3.DNS Spoofing
 In a DNS spoofing attack, the attacker exploits vulnerabilities in the DNS resolution process to provide false information to a DNS resolver, which is responsible for translating domain names into IP addresses. The goal of DNS spoofing is to redirect users to a fraudulent website or to intercept sensitive information.
 
 ### PERFORMING THE ATTACK
@@ -110,7 +110,7 @@ So the attack is successful.
 
 ![Screenshot 2024-01-29 222729](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/955a58e2-bdaa-4baa-87fc-7d9596110972)
 
-#### ICMP Redirect (ARP Poisioning)
+### 4. ICMP Redirect (ARP Poisioning)
 
 > An ICMP redirect message is an out-of-band message that is designed to inform a host of a more optimal route through a network, but possibly used maliciously for attacks that redirect traffic to a specific system
 
