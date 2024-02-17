@@ -110,3 +110,27 @@ So the attack is successful.
 
 ![Screenshot 2024-01-29 222729](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/955a58e2-bdaa-4baa-87fc-7d9596110972)
 
+#### ICMP Redirect (ARP Poisioning)
+
+> An ICMP redirect message is an out-of-band message that is designed to inform a host of a more optimal route through a network, but possibly used maliciously for attacks that redirect traffic to a specific system
+
+open Ettercap and start host scanning then, add victim’s IP to target 1 and default gateway to target 2
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/fc30865f-ad91-4860-80cd-9362dbde1626)
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/0f838b2a-325e-4c14-824f-3856ee12411c)
+
+After adding the respective hosts as targets start Arp poisoning. And after starting ARP poisoning simultaneously run the Wireshark in the background.
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/1941b058-fc94-40ff-89b0-99b453b4a972)
+
+Choose icmp redirect and add the mac address and ip address of the default gateway.
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/3b9c05c0-5b11-48f3-82cf-91b71989ff15)
+
+As we can see , the redirected message displayed in wireshark. 
+
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/061ee1be-570b-4840-aa04-55049338589f)
+
+
+
