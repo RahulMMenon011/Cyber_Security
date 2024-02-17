@@ -74,7 +74,7 @@ The victim becomes slow as soon as we enable the plugin since the target IP star
 
 ![WhatsApp Image 2024-02-17 at 21 50 47_878e4305](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/2f6d2d2d-4a8b-4a8a-b286-0a7b512d2791)
 
-## DNS Spoofing
+## 3.DNS Spoofing
 In a DNS spoofing attack, the attacker exploits vulnerabilities in the DNS resolution process to provide false information to a DNS resolver, which is responsible for translating domain names into IP addresses. The goal of DNS spoofing is to redirect users to a fraudulent website or to intercept sensitive information.
 
 ### PERFORMING THE ATTACK
