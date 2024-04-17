@@ -128,11 +128,11 @@ As we open Wazuh server, it will show all the vulnerabilities after scanning the
 
 Here is the graphical representation of all vulnerabilities and no. of vulnerabilities in terms of severity
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/ff5a7c1e-4b9b-464f-96f4-759cf0d53cbd)
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/ee937370-a6b5-4d4f-a430-811718599cbf)
 
 If we click the critical vulnerability, we will able to analyse
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6b47b86a-c72f-4a4d-af4e-a0916748a2bf)
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/38c442be-bb31-4fb3-8f2f-109179dc58f3)
 
 We have analysed Windows 11 also which is having 
 
@@ -144,11 +144,11 @@ CVE (common vulnerability and exposure) doesn’t only include the malicious sof
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6a5ef89f-f1e9-4a89-89eb-f971a51af028)
 
-
 We can navigate to Mitre Attack
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/fffb5988-8b96-4c71-9edd-a406f9eb01fc)
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/ec0734d0-788e-4733-8eaf-695438db0249)
 
 We can view Security Events as performing any authentication failure 
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6be6a69e-e507-49ef-b077-8f4559a882f1)
+![image](https://github.com/RahulMMenon011/Cyber_Security/assets/140642506/60592c48-a348-45c8-b2df-54f6c5da7caf)
+
